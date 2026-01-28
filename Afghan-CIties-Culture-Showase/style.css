@@ -24,18 +24,34 @@ body{
     background-image: url(../images/back.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: #DAA520;
     text-align: center;
     padding: 5% 20% 5% 20%;
     margin-bottom: 5%;
 }
-.container{
+.gallary .container{
     display: flex;
-    margin-top: 5%;
+    margin: 5% 10%;
 }
-.card{
+.gallary .container a{
+    color: #DAA520;
+    text-decoration: none;
+}
+.gallary .card{
     text-align: center;
+    background-color: #8B4513;
+    border: none;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-img{
+.gallary .card-text{
+    border:dashed;
+}
+.gallary img{
     height: 15rem;
+}
+
+.day .card{
+   min-height: 66vh;
+   margin: 20px;
 }
