@@ -50,8 +50,15 @@ body{
 .gallary img{
     height: 15rem;
 }
-
+.day img{
+    min-height: 60vh;
+    width: 600px;
+    /* margin: 10px; */
+}
 .day .card{
    min-height: 66vh;
-   margin: 20px;
+   margin: auto;
+   background:transparent;
+   border: none;
+
 }
