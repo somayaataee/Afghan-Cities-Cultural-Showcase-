@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/body.jpeg);
+    background-size: cover;
+
+}
+/* #DAA520 #F5F5DC */
+.nav{
+    background-color:  #8B4513;
+    padding: 8px;
+    border-top: 3px solid #DAA520;
+}
+.nav a{
+    color: white;
+    border-left: 1px solid #a2551d;
+    border-right: 1px solid #a2551d;
+}
+.title-head{
+    min-height: 67vh;
+    background-image: url(../images/back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 5% 20% 5% 20%;
+    margin-bottom: 5%;
+}
+.container{
+    display: flex;
+}
+.card{
+    /* margin: auto; */
+    text-align: center;
+
+}
