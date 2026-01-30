@@ -106,3 +106,31 @@ body{
     border-radius: 10px;
     background-color: #793b0f;
 }
+/* ============= submit============== */
+.submit-day{
+    min-height: 60vh;
+}
+form{
+    background-color: #fcd8be;
+    color: #793b0f;
+     margin: 3% auto;
+    width: 40%;
+    padding: 4%;
+    border-radius: 20px;
+    border: dashed;
+    
+}
+.submit-day form input{
+    display: block;
+    font-size: 25px;
+    border-radius: 20px;
+    border: 2px dashed #793b0f;
+    
+}
+.submit-day .btn{
+    margin-left:40%;
+    color: #f2c042;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #793b0f;
+}
