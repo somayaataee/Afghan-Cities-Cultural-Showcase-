@@ -12,7 +12,6 @@ body{
 .nav{
     background-color:  #8B4513;
     padding: 8px;
-    border-top: 3px solid #DAA520;
 }
 .nav a{
     color: white;
@@ -50,15 +49,32 @@ body{
 .gallary img{
     height: 15rem;
 }
-.day img{
-    min-height: 60vh;
-    width: 600px;
-    /* margin: 10px; */
+.card-title{
+    text-align: center;
+    font-size: 40px;
+    font-family:cursive;
+    color: #DAA520;
+}
+.day .col-md-8 img{
+    width: 650px;
+    border-radius: 30px;
+    object-fit:fill;
+    border: 3px dashed #DAA520;
+    box-shadow:  1px 1px 15px #DAA520;
+}
+.day .row{
+   min-height: 50vh;
+   margin: 5px 20px;
+   justify-content: center;
+   align-items: center;
+   background-color: #8B4513;
+   border: 8px solid #DAA520;
+   color: white;
 }
 .day .card{
-   min-height: 66vh;
-   margin: auto;
    background:transparent;
    border: none;
-
+}
+.day .col-md-4 .list-card{
+    list-style-type: none;
 }
