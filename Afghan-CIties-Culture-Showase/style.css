@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../images/body.jpeg);
+    background-image: url(../Afghan-CIties-Culture-Showase/images/body.jpeg);
     background-size: cover;
     font-family: cursive;
 }
@@ -28,7 +28,7 @@ body{
 }
 .title-head{
     min-height: 67vh;
-    background-image: url(../images/back.webp);
+    background-image: url(../Afghan-CIties-Culture-Showase/images/back.webp);
     background-repeat: no-repeat;
     background-size: cover;
     color: #DAA520;
