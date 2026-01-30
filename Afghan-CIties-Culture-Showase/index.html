@@ -19,22 +19,23 @@
     <link rel="stylesheet" href="style.css" />
     <title>Afghan Culture Show Case WebPage</title>
   </head>
+  <!-- ========== navbar========== -->
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link" aria-current="page" href="#">Home</a>
+        <a class="nav-link" aria-current="page" href="#home">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Gallary</a>
+        <a class="nav-link" href="#gallary">Gallary</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">City Of Day</a>
+        <a class="nav-link" href="#city">City Of Day</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link">Submit a City</a>
+        <a class="nav-link" href="#submit">Submit a City</a>
       </li>
     </ul>
-
-    <section class="title-head">
+    <!-- ========== home section/ head========= -->
+    <section class="title-head" id="home">
       <h1 style="text-shadow:2px 3px 3px yellow;">Culture Cities Of Afghanistan</h1>
       <br />
       <h4>Explore the Rich Heritage of Afghanistan Cities</h4>
@@ -45,7 +46,7 @@
       </p>
     </section>
     <!-- -----------------------Gallary------------------ -->
-    <section class="gallary">
+    <section class="gallary" id="gallary">
       <div class="container">
         <div class="row">
           <div class="col-sm-4">
@@ -105,7 +106,7 @@
 
     </section>
     <!-- ---------------------one day------------------ -->
-<section class="day">
+<section class="day" id="city">
 <div class="card">
   <div class="row ">
     <div class="col-md-4">
@@ -125,6 +126,44 @@
   </div>
 </div>
      </section>
+     <!-- ----------------------culture highliths -->
+      <section class="highliths" id="highlith">
+        <div class="container">
+          <div class="row">
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img src="../images/foods.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-text">Afghan Foods</h3>
+                <p>Manto , Kabuli Pulao ,Kabab</p>
+                <button class="btn">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img src="../images/tradition.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3 class="card-text">Traditions</h3>
+                <p>Beauty traditions dresses and jelwery.</p>
+                <button class="btn">Learn More</button>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card" style="width: 18rem">
+              <img src="../images/festival.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h3>Cultural Festivals</h3>
+                <p class="card-text">Nowroz <br> Buzkhashi</p>
+                <button class="btn">Learn More</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
   </body>
 </html>
