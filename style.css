@@ -48,9 +48,10 @@ body{
 .gallary .card{
     text-align: center;
     background-color: #8B4513;
-    border: none;
     font-size: 20px;
+    border: 2px solid;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
 }
 .gallary .card-text{
     border:dashed;
@@ -62,11 +63,19 @@ body{
 .day .card{
    background:transparent;
    border: none;
+
 }
 .card-title{
     text-align: center;
     font-size: 40px;
     color: #DAA520;
+    animation: myAnimation 2s infinite 3s;
+}
+@keyframes myAnimation {
+  0%  {border-color: #DAA520;}
+  25%  {border-color: white;}
+  50%  {border-color: blue;}
+  100% {border-color: green;}
 }
 .day .col-md-8 img{
     width: 650px;
@@ -83,6 +92,8 @@ body{
    background-color: #8B4513;
    border: 8px solid #DAA520;
    color: white;
+   animation: myAnimation 2s infinite 3s;
+
 }
 
 .day .col-md-4 .list-card{
