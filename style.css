@@ -78,6 +78,12 @@ body{
    background:transparent;
    border: none;
 }
+.highliths .col-sm-4 .card{
+    transition: 0.7s ;
+}
+.highliths .col-sm-4 .card:hover{
+    transform: rotatez(45deg);
+}
 .card-title{
     text-align: center;
     font-size: 40px;
