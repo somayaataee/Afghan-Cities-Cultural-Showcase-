@@ -26,6 +26,7 @@ body{
     text-decoration: underline;
     color: #DAA520;
 }
+
 .title-head{
     min-height: 67vh;
     background-image: url(../Afghan-CIties-Culture-Showase/images/back.webp);
@@ -35,6 +36,19 @@ body{
     text-align: center;
     padding: 5% 20% 5% 20%;
     margin-bottom: 5%;
+}
+.title-head h1{
+    animation: Infade 0.5s ease 0.7s ;
+
+}
+@keyframes Infade{
+    0%{
+        transform: translateX(50%);
+    }
+    75%{
+        transform: translateY(50%);
+    }
+
 }
 /* =========second section======== */
 .gallary .container{
@@ -63,13 +77,11 @@ body{
 .day .card{
    background:transparent;
    border: none;
-
 }
 .card-title{
     text-align: center;
     font-size: 40px;
     color: #DAA520;
-    animation: myAnimation 2s infinite 3s;
 }
 @keyframes myAnimation {
   0%  {border-color: #DAA520;}
